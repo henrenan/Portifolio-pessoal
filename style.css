@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Otomanopee One,Arial, Helvetica, sans-serif;
+    background-color: rgba(176, 196, 240, 0.486);
+}
+.menu{
+    margin:0;
+    text-decoration: none;
+    display:inline-block;
+    padding: 6%;
+    background-color: rgba(176, 196, 240, 0.699);
+    position: absolute;
+}
+.menu li{
+    padding: 35px;
+}
+.title{ 
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
