@@ -10,7 +10,12 @@ body{
     display:inline-block;
     padding: 6%;
     background-color: rgba(176, 196, 240, 0.699);
-    position: absolute;
+    text-align: right;
+    position: fixed;
+    left: 0;
+    top:0%;
+    width: 8em;
+    margin-top: -2.5em;
 }
 .menu li{
     padding: 26.5px;
@@ -25,5 +30,18 @@ body{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.about{
+    margin-top: 50%;
+    margin-left: 25%;
+    padding: 6%;
 
+}
+.table{
+    
+}
+.text p, table{
+    font-family: pontano sans, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
